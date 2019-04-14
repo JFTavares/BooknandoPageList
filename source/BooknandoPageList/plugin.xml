@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+<name>BooknandoPageList</name>
+<type>edit</type>
+<author>JFTavares</author>
+<description>Generate pagelists for ePub exported fomr inDesign. Work with the inDesign plugin BooknandoPageNum</description>
+<autostart>true</autostart>
+<engine>python3.4</engine>
+<engine>python2.7</engine>
+<version>0.1.0</version>
+<oslist>unx,win,osx</oslist>
+</plugin>
