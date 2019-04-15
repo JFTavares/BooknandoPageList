@@ -139,8 +139,8 @@ function mySortByTextFramePosition(a, b) {
 }
 
 function activateNum() {
-    app.findTextPreferences = NothingEnum.nothing;
-    app.changeTextPreferences = NothingEnum.nothing;
+   // app.findTextPreferences = NothingEnum.nothing;
+   // app.changeTextPreferences = NothingEnum.nothing;
     app.activeDocument.conditions.item(cdName).visible = true;
 
 }
