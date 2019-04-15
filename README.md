@@ -2,17 +2,15 @@
 
 This repository contain:
 
-- **BooknandoNumPage_v0.1.jsx**
-- Plugin for inDesign that insert a page number in every page for export to ePub3.
+- **BooknandoNumPage_v0.1.jsx**: Plugin for inDesign that insert a page number in every page for export to ePub3.
 
-- **BooknandoPageList_v0.1.zip**
-- Plugin for Sigil that create a listPage in the ePub file exported from inDesign
+- **BooknandoPageList.zip**: Plugin for Sigil that create a listPage in the ePub file exported from inDesign
 
-The two plugin has to be used together.
+The two plugins has to be used together.
 
 ## Acknowledgement
 
-This two plugin are based in the follow plugins:
+This two plugins are based in the follow plugins:
 - [PageList](https://www.mobileread.com/forums/showthread.php?t=265237) by Doitsu
 
 - [epubTools-numPage](https://github.com/civodulab/epubTools-numPage) by civodulab
