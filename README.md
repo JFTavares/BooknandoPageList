@@ -28,7 +28,7 @@ This two plugins are based in the follow plugins:
 This plugins are released **without warranties**. 
 
 ## Problems and limits
-The inDesign plugin do not applu numbers in inicial pages or in pages where the box text start in the middle of page. Working on it!
+The inDesign plugin do not apply numbers in inicial pages or in pages where the text box start in the middle of page. Working on it!
 
 ## Contact
 If you have troubles or the plugin are no working please use the Github Issues to indicate it.
