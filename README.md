@@ -37,7 +37,6 @@ If you have troubles or the plugin are no working please use the Github Issues t
 I love have ideas to improve this work.
 
 
-Twitter: #JFTavares
+Twitter: @JFTavares
+
 email: fernando@booknando.com.br
-
-
