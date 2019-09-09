@@ -1,6 +1,6 @@
 ﻿//#target "indesign"
 // Plugin for inDesign. Its adds number pages in every page and export using the conditional text.
-// This plugig was create by Doitsu and modified by JFTavares - Booknando Livros (@JFTavares)
+// This plugig was create by civodulab and modified by JFTavares - Booknando Livros (@JFTavares)
 // it is lincenced by GNU General Public License v2.0
 // Use it, distribuite it, modify it, and give the changes to community
 // 14 April 2019 - Maringá - PR - Brazil.
