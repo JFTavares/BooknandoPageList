@@ -5,7 +5,7 @@
 # it is lincenced by GNU General Public License v3.0
 # Use it, distribuite it, modify it, and give the changes to community
 # 14 April 2019 - Maringá - PR - Brazil.
-# Version 0.1
+# Version 0.2
 #
 from __future__ import unicode_literals, division, absolute_import, print_function
 
@@ -24,7 +24,7 @@ def substitutePageNum(bk):
         html = bk.readfile(id) 
         # html_orig = html
         print ('File found %s:' % href)
-        html = re.sub(r'<span class="pageNumber(.*?)>(.*?)</span>', r'<span epub:type="pagebreak" id="page_\2" title="\2"></span>', html, flags=re.DOTALL)  
+        html = re.sub(r'<span class="pageNumber(.*?)>(.*?)</span>', r'<span epub:type="pagebreak" role="doc-pagebreak" id="page_\2" title="\2"></span>', html, flags=re.DOTALL)  
         #if not html == html_orig: 
         bk.writefile(id, html)
         #return 0
@@ -118,7 +118,7 @@ def run(bk):
             
             # epub3
             if nav_id:
-                nav_pagelist += '        <li>\n          <a href="{}">{}</a>\n        </li>\n'.format('../' + href + '#' + id, title)
+                nav_pagelist += '        <li>\n          <a href="{}">{}</a>\n        </li>\n'.format(href + '#' + id, title)
     
     if errors != 0:
         print('Plugin aborted because of {} duplicate page number(s).'.format(str(errors)))
