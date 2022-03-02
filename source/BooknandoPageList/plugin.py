@@ -102,7 +102,9 @@ def run(bk):
 
             # check for duplicate titles/ids
             if title not in page_dic:
+                
                 page_dic[title] = os.path.basename(href + '#' + id)
+
             else:
                 errors += 1
                 page_dic[title] += ' / ' + os.path.basename(href + '#' + id)
@@ -118,7 +120,7 @@ def run(bk):
             
             # epub3
             if nav_id:
-                nav_pagelist += '        <li>\n          <a href="{}">{}</a>\n        </li>\n'.format(href + '#' + id, title)
+                nav_pagelist += '        <li>\n          <a href="{}">{}</a>\n        </li>\n'.format(os.path.basename(href + '#' + id), title)
     
     if errors != 0:
         print('Plugin aborted because of {} duplicate page number(s).'.format(str(errors)))
