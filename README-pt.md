@@ -2,10 +2,10 @@
 
 Este repositório contém:
 
-- **BooknandoNumPage_v03.jsx**
+- **BooknandoNumPage_v04.jsx**
 - Plugin para o inDesign que insere um número de página em cada página para exportar para o ePub3.
 
-- **BooknandoPageList_v03.zip**
+- **BooknandoPageList_v04.zip**
 - Plugin para o Sigil que cria um lista de págins no arquivo ePub exportado pelo inDesign
 
 Os dois plugins devem ser usados ​​juntos.
